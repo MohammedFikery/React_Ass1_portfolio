@@ -1,0 +1,65 @@
+:root {
+  --primary-color: rgb(44, 62, 80);
+  --secondary-color: #1abc9c;
+}
+.main-stayle {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainaddress {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.mainaddress span {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+nav,
+.bg-Footer {
+  background-color: var(--primary-color);
+}
+.navbar-brand {
+  font-size: 32px !important;
+  font-weight: 700;
+}
+.bg_About {
+  background-color: var(--secondary-color);
+}
+
+.icon_protfolio {
+  font-size: 96px;
+  color: white;
+  opacity: 0;
+  transition: 0.5s;
+}
+.icon_protfolio:hover {
+  opacity: 0.8;
+}
+.btn-primary {
+  background-color: #1abc9c !important;
+  border: 0 !important;
+}
+.Fotter-ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 20px;
+}
+.Fotter-ul li {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  color: red !important;
+  background-color: var(--secondary-color) !important;
+  border-radius: 10Px;
+
+}
