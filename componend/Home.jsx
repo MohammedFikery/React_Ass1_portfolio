@@ -1,4 +1,5 @@
 import React from "react";
+import image1 from "../img/avataaars.svg";
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       <div className=" vh-100 container  d-flex justify-content-center align-items-center text-white flex-wrap">
         <div>
           <div>
-            <img src="../img/avataaars.svg" className="w-100" alt="avataaars" />
+            <img src={image1} className="w-100" alt="avataaars" />
           </div>
           <h2 className="w-100 mainaddress">start Framework</h2>
           <div className="mainaddress">
