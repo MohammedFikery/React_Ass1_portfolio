@@ -8,14 +8,12 @@ import Portfolio from './../componend/Portfolio';
 
 const router = createBrowserRouter([
   {
-    path: "",
-    element: <Layout />,
-    children: [
-      { path: "", element: <Home /> },
-      { path: "/Home", element: <Home /> },
-      { path: "/About", element: <About /> },
-      { path: "/Contact", element: <Contact/> },
-      { path: "/Portfolio", element: <Portfolio/> },
+    path: "", element: <Layout/>, children: [
+      { index:true, element: <Home/> },
+      { path: "Home", element: <Home/> },
+      { path: "About", element: <About/> },
+      { path: "Contact", element: <Contact/> },
+      { path: "Portfolio", element: <Portfolio/> },
     ],
   },
 ]);
